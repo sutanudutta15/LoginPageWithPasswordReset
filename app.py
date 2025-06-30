@@ -24,8 +24,8 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///data.db"
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'youremail@gmail'       # your Gmail address
-app.config['MAIL_PASSWORD'] = 'your password'          # your Gmail app password
+app.config['MAIL_USERNAME'] = 'your_email@gmail.com'       # your Gmail address
+app.config['MAIL_PASSWORD'] = 'your_app_password'          # your Gmail app password
 app.config['MAIL_USE_TLS'] = True
 
 
